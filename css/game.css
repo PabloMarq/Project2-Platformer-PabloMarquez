@@ -1,0 +1,26 @@
+.background    { background-image: url('http://i.imgur.com/4NYaL0d.jpg');
+              table-layout: fixed;
+              border-spacing: 0;   }
+.background td {padding: 0;          }
+.acid          {background: rgb(0, 200, 30); }
+.wall          {background: rgb(102, 102, 102);   }
+.goon	  {background: rgb(80,50,40);}
+
+.actor  {position: absolute;  }
+.baby   {background: rgb(240, 125, 255); }
+.player {background: rgb(100, 200, 255); }
+.boost {background: rgb(100, 200, 255);}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(150, 0, 200);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
